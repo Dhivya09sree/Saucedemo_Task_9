@@ -1,7 +1,13 @@
+"""
+* Program Name       - Saucedemo.py
+* Purpose of Program - Extracting the title of the webpage,Getting the current URL of the webpage,Extracting entier contents of webpage save in to text file
+* Date Created       - 13-05-2024
+* History            - Dhivya.R Created on 13-05-2024
+"""
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import os
-
 from selenium.webdriver.common.by import By
 
 paths = r"C:\Users\dhivy\OneDrive\Desktop\chromedriver.exe"
